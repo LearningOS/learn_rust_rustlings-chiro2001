@@ -3,7 +3,7 @@
 // adding, changing or removing any of them.
 // Execute `rustlings hint move_semantics5` for hints :)
 
-// Emmmmmm
+// Emmmmmm  
 fn main() {
     let mut x = 100;
     let y = &mut x;
