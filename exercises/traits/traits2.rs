@@ -15,8 +15,9 @@ trait AppendBar {
 }
 
 impl AppendBar for Vec<String> {
-    fn append_bar(self) -> Self {
-        self.push("Bar".to_string())
+    fn append_bar(mut self) -> Self {
+        self.push("Bar".to_string());
+        self
     }
 }
 
